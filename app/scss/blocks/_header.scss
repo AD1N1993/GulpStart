@@ -1,5 +1,9 @@
 .header {
-  position: relative;
+  position: fixed;
+  background-color: #ffffff;
+  z-index: 3;
+ width: 100%;
+  max-width: 1440px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -65,15 +69,13 @@
     background-color: #e86330;
     color: #ffffff;
   }
-  .line{
-
-
-  }
 }
 
 .curtain{
   visibility: hidden;
-  position: absolute;
+  position: fixed;
+  overflow: hidden;
+  z-index: 3;
   top: 0;
   left: 0;
   background-color: rgba(#00000067,0.4);
@@ -83,8 +85,8 @@
 
 .close{
   position: absolute;
-  top: 28px;
-  right: 47px;
+  top: 4%;
+  right: 9%;
   width: 48px;
   height: 48px;
   background-color: #ffffff;

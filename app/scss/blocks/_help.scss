@@ -1,0 +1,44 @@
+.help{
+  min-height: 541px;
+  background-image: url("../../img/help-bg-up.png");
+  background-repeat: no-repeat;
+  background-size: 460px 374px;
+  background-position: 16% 47%;
+  display:flex;
+  justify-content:flex-end;
+  align-items:flex-start;
+  padding-top: 150px;
+
+}
+.help-texts{
+  margin-right: 140px;
+}
+
+.help__subtitle{
+  font-family: 'Cabin', sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  color: #E86330;
+  margin-bottom: 10px;
+}
+.help__title {
+  padding-top: 10px;
+  color: #3f536e;
+  text-align: left;
+  font-size: 42px;
+  font-weight: 600;
+  letter-spacing: -0.88px;
+  margin: 0;
+  margin-bottom: 24px;
+}
+.help-describe{
+  font-size: 15px;
+  text-align: left;
+  color: #3F536E;
+  max-width: 441px;
+  line-height: 24px;
+  margin: 0;
+  &--one{
+    margin-bottom: 24px;
+  }
+}

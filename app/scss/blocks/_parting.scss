@@ -1,0 +1,29 @@
+.parting{
+  padding-bottom: 53px;
+  min-height: 597px;
+  background-image: url("../../img/parting-bg.svg");
+  background-repeat: no-repeat;
+  background-size: 597px 597px;
+  background-position: 80% 0;
+  display: flex;
+  align-items: center;
+}
+.parting-texts{
+  padding-left: 14%;
+  max-width: 323px;
+  text-align: right;
+}
+.parting__title{
+  font-size: 34px;
+  font-weight: 600;
+  color: #E86330;
+  letter-spacing: -0.71px;
+  margin: 0 0 10px 0;
+}
+.parting__subtitle{
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  color: #3F536E;
+
+}

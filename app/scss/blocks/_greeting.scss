@@ -2,8 +2,9 @@
   height: 587px;
   background-image: url("../../img/greeting-bg2.svg"), url("../../img/greeting-bg.svg");
   background-size: 601px 547px, 1868px 1295px;
-  background-position: 89% 0, -628px -511px;
+  background-position: 89% 70%, -628px -433px;
   background-repeat: no-repeat;
+  padding-top: 100px;
 }
 
 .greeting-wrapper {
@@ -35,9 +36,11 @@
 .greeting-text {
   margin: 0;
   font-size: 15px;
+  font-weight: normal;
   color: #ffffff;
   line-height: 24px;
   padding-bottom: 40px;
+  margin-right: 27px;
 }
 
 .btn--register {

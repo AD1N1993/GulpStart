@@ -1,0 +1,147 @@
+.find {
+  padding-top: 191px;
+  text-align: center;
+  background-image: url("../../img/bg-find-mini-right.svg"),
+  url("../../img/medical-bg.svg"),
+  url("../../img/bg-find-down.svg");
+  background-repeat: no-repeat;
+  background-position: 119% -1%, -15% 60%,206% 108%;
+  margin-top: -145px;
+}
+
+.find__subtitle {
+  font-family: 'Cabin', sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  color: #E86330;
+
+}
+
+.find__title {
+  margin: 10px 0 24px 0;
+  font-size: 42px;
+  font-weight: 600;
+  letter-spacing: -0.88px;
+  color: #3F536E;
+  opacity: 1;
+}
+
+.find__title-describe {
+  font-size: 15px;
+  color: #3F536E;
+  line-height: 24px;
+}
+
+.find-content {
+  padding: 56px 20px 56px 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 1160px;
+  margin: 0 auto;
+  &:first-child{
+    padding-top: 104px;
+  }
+}
+
+.find-content__text {
+  text-align: left;
+  margin-right: 10px;
+}
+
+.find-content__title {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  max-width: 591px;
+  margin: 0 0 16px 0;
+}
+
+.find-content__subtitle {
+  font-size: 15px;
+  color: #3F536E;
+  font-weight: 400;
+  margin: 0;
+  max-width: 590px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.find-form {
+  width: 437px;
+  height: 238px;
+  box-shadow: 0px 7px 37px #0F143129;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  background-color: #ffffff;
+}
+.custom-select{
+  position: relative;
+  width: 377px;
+  margin: 0 10px;
+  &:after{
+    position: absolute;
+    top: 38px;
+    right: 20px;
+    content: "";
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(45deg);
+  }
+}
+.subscription {
+  display: block;
+  position: relative;
+  font-size: 16px;
+  margin-bottom: 6px;
+
+  sup {
+    position: absolute;
+    top: 10px;
+    font-size: 16px;
+    color: #D0021B;
+  }
+}
+
+.find__select{
+  border: 1px solid #878DA0;
+  border-radius: 8px;
+  width: 100%;
+  padding: 13px 0 13px 16px;
+  color: #3F536E;
+  font-size: 16px;
+  appearance: none !important;
+  margin-bottom: 19px;
+  outline: none;
+
+}
+.find-form__btn{
+  display: block;
+  text-decoration: none;
+  border: 1px solid #E86330;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #E86330;
+  padding: 13px 0;
+  width: 99.7%;
+
+  &:hover{
+    background-color:  #E86330;
+    color: #ffffff;
+    animation: blink 1s 1 ease-in-out;
+  }
+}
+
+.ediofy-link{
+  color: #229FD1;
+  text-decoration: none;
+  font-size: 15px;
+}
+
