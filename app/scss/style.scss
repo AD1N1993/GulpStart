@@ -1,9 +1,17 @@
-@import "vars";
-@import "libs";
-@import "fonts";
+@import "blocks/header";
+@import "blocks/greeting";
+
+@import "base/vars";
+@import "base/libs";
+@import "base/fonts";
+@import "base/media";
 
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 
-
-
-@import "media";
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}

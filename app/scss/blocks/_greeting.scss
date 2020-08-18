@@ -1,0 +1,82 @@
+.greeting {
+  height: 587px;
+  background-image: url("../../img/greeting-bg2.svg"), url("../../img/greeting-bg.svg");
+  background-size: 601px 547px, 1868px 1295px;
+  background-position: 89% 0, -628px -511px;
+  background-repeat: no-repeat;
+}
+
+.greeting-wrapper {
+  max-width: 494px;
+  padding-top: 45px;
+  margin: 0 0 0 158px;
+}
+
+.greeting-title {
+  font-size: 34px;
+  color: #F5A623;
+  font-weight: bold;
+  margin: 0 0 13px 0;
+  padding: 0;
+
+  &--small {
+    font-weight: normal;
+
+  }
+
+  &--big {
+    font-size: 64px;
+    color: #ffffff;
+    line-height: 1;
+    margin: 0 0 16px 0;
+  }
+}
+
+.greeting-text {
+  margin: 0;
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 24px;
+  padding-bottom: 40px;
+}
+
+.btn--register {
+  background-color: #E86330;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 49px;
+  margin-right: 16px;
+  font-weight: 400;
+  &:hover{
+    background-color: #F5A623;
+    border: 1px solid #F5A623;
+  }
+}
+.sign{
+  display: none;
+}
+.btn--exam{
+  padding: 8px 25px;
+  margin-right: 0;
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+  font-weight: 400;
+  transition: none;
+  &:hover{
+    background-color: #4cbdee;
+    border: none;
+    font-size: 14px;
+    border-radius: 15px;
+    font-weight: 400;
+    .sign{
+      display: inline;
+    }
+    .exam{
+      display: none;
+    }
+
+  }
+}
