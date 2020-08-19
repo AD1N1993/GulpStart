@@ -1,15 +1,15 @@
-@import "blocks/header";
-@import "blocks/greeting";
-@import "blocks/help";
-@import "blocks/find";
-@import "blocks/parting";
-@import "blocks/footer";
+@import "header";
+@import "greeting";
+@import "help";
+@import "find";
+@import "parting";
+@import "footer";
 
-@import "base/vars";
-@import "base/libs";
-@import "base/fonts";
-@import "base/media";
-@import "base/animation";
+@import "vars";
+@import "libs";
+@import "fonts";
+@import "media";
+@import "animation";
 
 
 body {
@@ -21,6 +21,7 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   box-sizing: border-box;
+
 }
 .line-wrapper{
   margin: 0 10px;

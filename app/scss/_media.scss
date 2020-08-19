@@ -1,7 +1,39 @@
 //header===========================================================================
+@media (max-width: 1441px) {
+  .greeting{
+    background-image: url("../img/greeting-bg2.svg"), url("../img/greeting-bg.svg");
+    background-size: 601px 547px, 1868px 1295px;
+    background-position: 89% 70%, -628px -433px;
+    &:before{
+      display: none;
+    }
+  }
+  .find{
+    background-image: url("../img/bg-find-mini-right.svg"),
+    url("../img/medical-bg.svg"),
+    url("../img/bg-find-down.svg");
+    background-position: 119% -1%, -15% 60%,206% 108%;
+  }
+  .third-exam{
+    &:before{
+      display: none;
+    }
+  }
+  .fourth-exam{
+    &:before{
+      display: none;
+    }
+  }
+  .find-texts{
+    &:before{
+      display: none;
+    }
+  }
+}
+
 @media (max-width: 1430px) {
   .find {
-    background-position: 119% -1%, -34% 60%, 302% 108%;
+    //background-position: 119% -1%, -34% 60%, 302% 108%;
   }
 }
 

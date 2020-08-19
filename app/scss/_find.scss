@@ -1,12 +1,27 @@
 .find {
   padding-top: 191px;
   text-align: center;
-  background-image: url("../../img/bg-find-mini-right.svg"),
-  url("../../img/medical-bg.svg"),
-  url("../../img/bg-find-down.svg");
+  //background-image: url("../img/bg-find-mini-right.svg"),
+  //url("../img/medical-bg.svg"),
+  //url("../img/bg-find-down.svg");
+  //background-image: url("../img/bg-find-down.svg");
   background-repeat: no-repeat;
-  background-position: 119% -1%, -15% 60%,206% 108%;
+  //background-position: 119% -1%, -15% 60%,206% 108%;
+  //background-position: 206% 108%;
   margin-top: -145px;
+}
+.find-texts{
+  position: relative;
+  &:before{
+    position: absolute;
+    top: -230px;
+    right: -80px;
+    content: "";
+    width: 289px;
+    height: 481px;
+    background-image: url(../img/bg-find-mini-right.svg);
+    background-repeat: no-repeat;
+  }
 }
 
 .find__subtitle {
@@ -42,8 +57,35 @@
   &:first-child{
     padding-top: 104px;
   }
-}
 
+}
+.third-exam{
+  position: relative;
+  &:before{
+    position: absolute;
+    top: -230px;
+    left: -278px;
+    content: "";
+    width: 289px;
+    height: 481px;
+    background-image: url(../img/bg-find-mini-right.svg);
+    background-repeat: no-repeat;
+  }
+}
+.fourth-exam{
+  position: relative;
+  &:before{
+    position: absolute;
+    top: 50px;
+    right: -180px;
+    content: "";
+    width: 289px;
+    height: 481px;
+    background-image: url(../img/bg-find-mini-right.svg);
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+}
 .find-content__text {
   text-align: left;
   margin-right: 10px;
